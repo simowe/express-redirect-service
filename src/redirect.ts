@@ -17,5 +17,5 @@ export function redirect(
       next()
     }
   }
-  app.get('*', handler)
+  app.use('*', handler)
 }
